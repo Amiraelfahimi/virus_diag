@@ -34,7 +34,7 @@ def train_and_evaluate(model_name):
     for k in ("accuracy", "precision", "recall", "f1", "loss"):
         print(f"  {k:<10}: {scores[k]:.3f}")
     print(f"  confusion : {scores['confusion']}")
-    return model
+    return            model
 
 
 def main():
